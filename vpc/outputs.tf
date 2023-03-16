@@ -5,10 +5,10 @@ output "vpc_arn" {
 
 output "vpc_id" {
     description = "The Id of the VPC"
-    value = ""
+    value = "data.aws_vpc.test_vpc.id"
 }
 
 output "route_table_id" {
     description = "The ID of the route table"
-    value = ""
+    value = "data.aws_route_table.route_table.id"
 }
