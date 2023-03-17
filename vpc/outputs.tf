@@ -15,4 +15,4 @@ output "route_table_id" {
 #output "subnet_id" {
  #   description = "The ID of the subnet"
   #  value = "aws_subnet.test_vpc.id"
-}
+#}
